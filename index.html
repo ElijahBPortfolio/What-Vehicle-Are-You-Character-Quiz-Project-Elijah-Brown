@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Vehicle Are You? Character Quiz Project (Elijah Brown)</title>
+<!--    Google Fonts go here.      -->
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Share+Tech+Mono&family=Staatliches&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<!--    This div lets me see the questions better without the spotty background image mucking up text. The enire survey is in this div element.      -->
+        <div class="survey">
+            <h1 class="title">What type of vehicle are you?</h1>
+            <br>
+            <h2>Question 1: How many wheels would you like to have?</h2>
+
+            <input class="wheelAmount" type="number" min="0" max="4" placeholder="Number:">
+            <br>
+            <h2>Question 2: When you go on a trip, what do you like riding best? is it a car, a train, a plane, or a boat?</h2>
+            
+            <input class="vehicleType" placeholder="type in the vehicle!">
+            <br>
+            
+            <button class="submit-button" type="submit">Submit Answers</button>
+            
+            <br>
+<!--      The h3 element will have certain text added to it using javascript. It must be empty.        -->
+            <h3 class="description"></h3>
+            <h3>Survey answered: <a class="surveyAnswerCount">0</a> times!</h3>
+            <h4 class="errorMessage">Error! The survey is case sensitive, you may have typed something incorrectly or submitted an invalid answer!</h4>
+            <img class="carImage" src="https://media.istockphoto.com/photos/red-generic-sedan-car-isolated-on-white-background-3d-illustration-picture-id1189903200?k=20&m=1189903200&s=612x612&w=0&h=L2bus_XVwK5_yXI08X6RaprdFKF1U9YjpN_pVYPgS0o=">
+            <img class="planeImage" src="https://assets.newatlas.com/dims4/default/2a36987/2147483647/strip/true/crop/1578x1052+0+14/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fcloud-streamer-2.jpg">
+            <img class="trainImage" src="https://cdm0lfbn.cloudimg.io/v7/_origin_/image_uploader/photos/66/original/about-trains-to-la-plagne.jpg?p=large">
+            <img class="boatImage" src="https://robbreport.com/wp-content/uploads/2018/03/the-hinckley-sport-boat_water.jpg">
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHHziFgdywbZhJHHI_Y2mlL_1q-pXtwPBBaP761vgAEYVYJmR6AXr_fn8r5urZwssKMo&usqp=CAU">
+    </body>
+</html>
