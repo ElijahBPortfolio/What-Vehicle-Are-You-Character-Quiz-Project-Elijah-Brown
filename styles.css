@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHHziFgdywbZhJHHI_Y2mlL_1q-pXtwPBBaP761vgAEYVYJmR6AXr_fn8r5urZwssKMo&usqp=CAU);
+    
+}
+
+.survey {
+    text-align: center;
+    color: #D63303;
+    border: 22px #4DAB12;
+    border-style: outset;
+    background-color: #2DBAE8;
+    margin: 5% 24% 12% 24%;
+    padding: 7%;
+}
+
+.title {
+    font-size: 4em;
+    font-family: "Carter One", cursive;
+}
+
+h2 {
+    font-family: "Staaliches", cursive;
+    font-size: 2em;
+}
+/* The following elements are to be hidden at first! */
+.carImage {
+   display:none;
+   height: 26em;
+   width: 32em;
+}
+
+.planeImage {
+    display:none;
+    height: 26em;
+    width: 32em;
+}
+
+.trainImage {
+    display:none;
+    height: 22em;
+    width: 32em;
+}
+
+.boatImage {
+    display:none;
+    height: 22em;
+    width: 32em;
+}
+
+h3 {
+    display:none;
+    font-family: "Share Tech Mono", monospace;
+}
+
+.errorMessage {
+    display:none;
+    font-family: "Share Tech Mono", monospace;
+}
+/* End of hidden elements. */
